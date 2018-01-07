@@ -1,0 +1,130 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex01", "EXAMPLES\Ex01\Ex01.vcproj", "{13757425-6513-432F-A91B-2D823B62FF52}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "addon", "wsaddon\addon.vcproj", "{E2F9430F-6125-4BC7-9670-59081B2D7A05}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C9613893-BE95-404B-A9D2-25D8EE928D44} = {C9613893-BE95-404B-A9D2-25D8EE928D44}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mfcex01", "examples\mfcex01\mfcex01.vcproj", "{CCB46B8B-FACD-48F9-BFF3-3A7C8AAB85BF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wdfpck", "wdfpck\wdfpck.vcproj", "{3AEB759B-0BF9-46E4-8F15-06CC56B80E9C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "windsoul", "windsoul\windsoul.vcproj", "{C9613893-BE95-404B-A9D2-25D8EE928D44}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wsaddons", "wsaddons\wsaddons.vcproj", "{2314B27B-411B-4DF8-AAD5-1AF6C7DDA2F8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wsound", "wsound\wsound.vcproj", "{AE26A8FA-C704-4CD8-B648-7BF065CC6C9D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E2F9430F-6125-4BC7-9670-59081B2D7A05} = {E2F9430F-6125-4BC7-9670-59081B2D7A05}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wsstatic", "wsstatic\wsstatic.vcproj", "{A7016C3C-D07A-48C6-87D7-22619099D61B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		API = API
+		CanvasDebug = CanvasDebug
+		Debug = Debug
+		Release = Release
+		VTune = VTune
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{13757425-6513-432F-A91B-2D823B62FF52}.API.ActiveCfg = Debug|Win32
+		{13757425-6513-432F-A91B-2D823B62FF52}.API.Build.0 = Debug|Win32
+		{13757425-6513-432F-A91B-2D823B62FF52}.CanvasDebug.ActiveCfg = Debug|Win32
+		{13757425-6513-432F-A91B-2D823B62FF52}.CanvasDebug.Build.0 = Debug|Win32
+		{13757425-6513-432F-A91B-2D823B62FF52}.Debug.ActiveCfg = Debug|Win32
+		{13757425-6513-432F-A91B-2D823B62FF52}.Debug.Build.0 = Debug|Win32
+		{13757425-6513-432F-A91B-2D823B62FF52}.Release.ActiveCfg = Release|Win32
+		{13757425-6513-432F-A91B-2D823B62FF52}.Release.Build.0 = Release|Win32
+		{13757425-6513-432F-A91B-2D823B62FF52}.VTune.ActiveCfg = Debug|Win32
+		{13757425-6513-432F-A91B-2D823B62FF52}.VTune.Build.0 = Debug|Win32
+		{E2F9430F-6125-4BC7-9670-59081B2D7A05}.API.ActiveCfg = Debug|Win32
+		{E2F9430F-6125-4BC7-9670-59081B2D7A05}.API.Build.0 = Debug|Win32
+		{E2F9430F-6125-4BC7-9670-59081B2D7A05}.CanvasDebug.ActiveCfg = Debug|Win32
+		{E2F9430F-6125-4BC7-9670-59081B2D7A05}.CanvasDebug.Build.0 = Debug|Win32
+		{E2F9430F-6125-4BC7-9670-59081B2D7A05}.Debug.ActiveCfg = Debug|Win32
+		{E2F9430F-6125-4BC7-9670-59081B2D7A05}.Debug.Build.0 = Debug|Win32
+		{E2F9430F-6125-4BC7-9670-59081B2D7A05}.Release.ActiveCfg = Release|Win32
+		{E2F9430F-6125-4BC7-9670-59081B2D7A05}.Release.Build.0 = Release|Win32
+		{E2F9430F-6125-4BC7-9670-59081B2D7A05}.VTune.ActiveCfg = Debug|Win32
+		{E2F9430F-6125-4BC7-9670-59081B2D7A05}.VTune.Build.0 = Debug|Win32
+		{CCB46B8B-FACD-48F9-BFF3-3A7C8AAB85BF}.API.ActiveCfg = Debug|Win32
+		{CCB46B8B-FACD-48F9-BFF3-3A7C8AAB85BF}.API.Build.0 = Debug|Win32
+		{CCB46B8B-FACD-48F9-BFF3-3A7C8AAB85BF}.CanvasDebug.ActiveCfg = Debug|Win32
+		{CCB46B8B-FACD-48F9-BFF3-3A7C8AAB85BF}.CanvasDebug.Build.0 = Debug|Win32
+		{CCB46B8B-FACD-48F9-BFF3-3A7C8AAB85BF}.Debug.ActiveCfg = Debug|Win32
+		{CCB46B8B-FACD-48F9-BFF3-3A7C8AAB85BF}.Debug.Build.0 = Debug|Win32
+		{CCB46B8B-FACD-48F9-BFF3-3A7C8AAB85BF}.Release.ActiveCfg = Release|Win32
+		{CCB46B8B-FACD-48F9-BFF3-3A7C8AAB85BF}.Release.Build.0 = Release|Win32
+		{CCB46B8B-FACD-48F9-BFF3-3A7C8AAB85BF}.VTune.ActiveCfg = Debug|Win32
+		{CCB46B8B-FACD-48F9-BFF3-3A7C8AAB85BF}.VTune.Build.0 = Debug|Win32
+		{3AEB759B-0BF9-46E4-8F15-06CC56B80E9C}.API.ActiveCfg = Debug|Win32
+		{3AEB759B-0BF9-46E4-8F15-06CC56B80E9C}.API.Build.0 = Debug|Win32
+		{3AEB759B-0BF9-46E4-8F15-06CC56B80E9C}.CanvasDebug.ActiveCfg = Debug|Win32
+		{3AEB759B-0BF9-46E4-8F15-06CC56B80E9C}.CanvasDebug.Build.0 = Debug|Win32
+		{3AEB759B-0BF9-46E4-8F15-06CC56B80E9C}.Debug.ActiveCfg = Debug|Win32
+		{3AEB759B-0BF9-46E4-8F15-06CC56B80E9C}.Debug.Build.0 = Debug|Win32
+		{3AEB759B-0BF9-46E4-8F15-06CC56B80E9C}.Release.ActiveCfg = Release|Win32
+		{3AEB759B-0BF9-46E4-8F15-06CC56B80E9C}.Release.Build.0 = Release|Win32
+		{3AEB759B-0BF9-46E4-8F15-06CC56B80E9C}.VTune.ActiveCfg = Debug|Win32
+		{3AEB759B-0BF9-46E4-8F15-06CC56B80E9C}.VTune.Build.0 = Debug|Win32
+		{C9613893-BE95-404B-A9D2-25D8EE928D44}.API.ActiveCfg = API|Win32
+		{C9613893-BE95-404B-A9D2-25D8EE928D44}.API.Build.0 = API|Win32
+		{C9613893-BE95-404B-A9D2-25D8EE928D44}.CanvasDebug.ActiveCfg = CanvasDebug|Win32
+		{C9613893-BE95-404B-A9D2-25D8EE928D44}.CanvasDebug.Build.0 = CanvasDebug|Win32
+		{C9613893-BE95-404B-A9D2-25D8EE928D44}.Debug.ActiveCfg = Debug|Win32
+		{C9613893-BE95-404B-A9D2-25D8EE928D44}.Debug.Build.0 = Debug|Win32
+		{C9613893-BE95-404B-A9D2-25D8EE928D44}.Release.ActiveCfg = Release|Win32
+		{C9613893-BE95-404B-A9D2-25D8EE928D44}.Release.Build.0 = Release|Win32
+		{C9613893-BE95-404B-A9D2-25D8EE928D44}.VTune.ActiveCfg = VTune|Win32
+		{C9613893-BE95-404B-A9D2-25D8EE928D44}.VTune.Build.0 = VTune|Win32
+		{2314B27B-411B-4DF8-AAD5-1AF6C7DDA2F8}.API.ActiveCfg = Debug|Win32
+		{2314B27B-411B-4DF8-AAD5-1AF6C7DDA2F8}.API.Build.0 = Debug|Win32
+		{2314B27B-411B-4DF8-AAD5-1AF6C7DDA2F8}.CanvasDebug.ActiveCfg = Debug|Win32
+		{2314B27B-411B-4DF8-AAD5-1AF6C7DDA2F8}.CanvasDebug.Build.0 = Debug|Win32
+		{2314B27B-411B-4DF8-AAD5-1AF6C7DDA2F8}.Debug.ActiveCfg = Debug|Win32
+		{2314B27B-411B-4DF8-AAD5-1AF6C7DDA2F8}.Debug.Build.0 = Debug|Win32
+		{2314B27B-411B-4DF8-AAD5-1AF6C7DDA2F8}.Release.ActiveCfg = Release|Win32
+		{2314B27B-411B-4DF8-AAD5-1AF6C7DDA2F8}.Release.Build.0 = Release|Win32
+		{2314B27B-411B-4DF8-AAD5-1AF6C7DDA2F8}.VTune.ActiveCfg = Debug|Win32
+		{2314B27B-411B-4DF8-AAD5-1AF6C7DDA2F8}.VTune.Build.0 = Debug|Win32
+		{AE26A8FA-C704-4CD8-B648-7BF065CC6C9D}.API.ActiveCfg = Debug|Win32
+		{AE26A8FA-C704-4CD8-B648-7BF065CC6C9D}.API.Build.0 = Debug|Win32
+		{AE26A8FA-C704-4CD8-B648-7BF065CC6C9D}.CanvasDebug.ActiveCfg = Debug|Win32
+		{AE26A8FA-C704-4CD8-B648-7BF065CC6C9D}.CanvasDebug.Build.0 = Debug|Win32
+		{AE26A8FA-C704-4CD8-B648-7BF065CC6C9D}.Debug.ActiveCfg = Debug|Win32
+		{AE26A8FA-C704-4CD8-B648-7BF065CC6C9D}.Debug.Build.0 = Debug|Win32
+		{AE26A8FA-C704-4CD8-B648-7BF065CC6C9D}.Release.ActiveCfg = Release|Win32
+		{AE26A8FA-C704-4CD8-B648-7BF065CC6C9D}.Release.Build.0 = Release|Win32
+		{AE26A8FA-C704-4CD8-B648-7BF065CC6C9D}.VTune.ActiveCfg = Debug|Win32
+		{AE26A8FA-C704-4CD8-B648-7BF065CC6C9D}.VTune.Build.0 = Debug|Win32
+		{A7016C3C-D07A-48C6-87D7-22619099D61B}.API.ActiveCfg = Debug|Win32
+		{A7016C3C-D07A-48C6-87D7-22619099D61B}.API.Build.0 = Debug|Win32
+		{A7016C3C-D07A-48C6-87D7-22619099D61B}.CanvasDebug.ActiveCfg = Debug|Win32
+		{A7016C3C-D07A-48C6-87D7-22619099D61B}.CanvasDebug.Build.0 = Debug|Win32
+		{A7016C3C-D07A-48C6-87D7-22619099D61B}.Debug.ActiveCfg = Debug|Win32
+		{A7016C3C-D07A-48C6-87D7-22619099D61B}.Debug.Build.0 = Debug|Win32
+		{A7016C3C-D07A-48C6-87D7-22619099D61B}.Release.ActiveCfg = Release|Win32
+		{A7016C3C-D07A-48C6-87D7-22619099D61B}.Release.Build.0 = Release|Win32
+		{A7016C3C-D07A-48C6-87D7-22619099D61B}.VTune.ActiveCfg = Debug|Win32
+		{A7016C3C-D07A-48C6-87D7-22619099D61B}.VTune.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
